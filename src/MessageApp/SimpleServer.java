@@ -9,7 +9,6 @@ public class SimpleServer {
 	static int port = 9999;
 
 	public static void main(String[] args) throws IOException {
-		// TODO Auto-generated method stub
 		
 		System.out.println("\t\t Simple Server");
 		System.out.println("\t\t ============");
