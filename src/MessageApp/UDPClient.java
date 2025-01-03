@@ -6,7 +6,7 @@ import java.net.DatagramSocket;
 import java.net.InetAddress;
 
 public class UDPClient {
-	static int port = 4411;
+	static int port = 4412;
 	public static void main(String[] args) throws IOException {
 		DatagramSocket client = new DatagramSocket();
 		InetAddress ipAddress = InetAddress.getLocalHost();

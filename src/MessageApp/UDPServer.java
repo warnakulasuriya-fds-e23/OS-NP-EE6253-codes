@@ -5,7 +5,7 @@ import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 
 public class UDPServer {
-	static int port = 4411;
+	static int port = 4412;
 	
 	public static void main(String[] args) throws IOException {
 		DatagramSocket server = new DatagramSocket(port);
