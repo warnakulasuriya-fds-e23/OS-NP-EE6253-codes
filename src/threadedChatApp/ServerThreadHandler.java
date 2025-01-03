@@ -37,7 +37,7 @@ public class ServerThreadHandler extends Thread {
 					break;
 				}
 				
-				System.out.println("Enter Reply to Client: ");
+				System.out.println("Enter Reply to Client"+client_id+": ");
 				String output = scannerInput.nextLine();
 				out.println(output);
 			}
