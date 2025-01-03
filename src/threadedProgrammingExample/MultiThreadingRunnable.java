@@ -1,11 +1,12 @@
 package threadedProgrammingExample;
 
-public class MultiThreading extends Thread{
+public class MultiThreadingRunnable implements Runnable{
 	private int thread_number;
 	
-	public MultiThreading(int t) {
+	public MultiThreadingRunnable(int t) {
 		this.thread_number = t;
 	}
+	@Override
 	public void run() {
 		for(int i=0; i<=5; i++) {
 			System.out.println(i+" is from : "+thread_number);
@@ -21,4 +22,6 @@ public class MultiThreading extends Thread{
 			} 
 		}
 	}
+
+
 }
